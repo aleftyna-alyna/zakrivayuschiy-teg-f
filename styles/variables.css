@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font-family: 'Inter-Variable', sans-serif;
+    --accent-font-family: 'PressStart2P-Regular', Russo One;
+    --bold-font-wght: 700;
+    --medium-font-wght: 465;
+    --regular-font-wght: 400;
+    --gradient-color: #d3d3d3;
+    --gradient-color-medium: #e7e7e7;
+    --gradient-color-shadow: #1a1a1a;
+    --content-width: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem); /*ширина относительно окна*/
+    --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem); /* под текст*/
+    --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem); /* заголовок большой текст */
+    --page-text-font-size: 1.125rem; /* 18px основной контент текст*/
+    --text-button-font-size: 0.875rem; /* текст на кнопках 14px*/
+    --header-padding: clamp(7.5rem, 7.324rem + 0.751vw, 8rem) 0; /*отступ */
+    --header-margin: 100px;
+    --border-size-color: 2px  #000  solid;
+    --text-color:  #000;
+    --text-buttom-color: var( --text-color-shadow);
+    --use-ofen-color-darck: var( --text-color);
+    --text-color-shadow: #FFF;
+    --bg-color: #FFF;
+    --bg-button-color: var(--text-color);
+    --heart-color: #FF0000;
+    --heart-contour-color: #000;
+    --heart-accent-color:  #FF0000;
+    --save-button-size: clamp(19.125rem, 18.487rem + 2.723vw, 20.938rem);
+
+}

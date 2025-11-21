@@ -9,3 +9,19 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes like-to-move {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.25);
+    }
+}
+@keyframes  sparks-to-move {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
