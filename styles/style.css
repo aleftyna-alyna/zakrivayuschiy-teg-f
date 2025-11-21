@@ -114,10 +114,10 @@
     1px 0 var(--text-color-shadow), 0 -1px var(--text-color-shadow);
 }
 
-@supports(--webkit-text-stroke: 1px var(--text-color-shadow)) {
+@supports (-webkit-text-stroke: 1px var(--text-color-shadow)) {
   .card__label {
     text-shadow: none;
-    --webkit-text-stroke: 1px var(--text-color-shadow);
+    -webkit-text-stroke: 1px var(--text-color-shadow);
   }
 }
 
