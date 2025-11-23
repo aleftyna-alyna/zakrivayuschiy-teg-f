@@ -59,7 +59,7 @@
 .card__container {
   min-inline-size: 320px;
   margin-inline: auto;
-  inline-size: var(--content-width);
+  inline-size: var(--main-content-width);
 }
 
 .cards__list__item:not(:last-of-type) {
@@ -251,6 +251,16 @@
 }
 
 @media (min-width: 1440px) {
+
+  .card__title {
+    padding: 5px 10px 4px;
+  }
+
+  .card__label {
+    top: 25px;
+    right: 25px;
+  }
+
   .button-save__text {
     flex-direction: row;
   }

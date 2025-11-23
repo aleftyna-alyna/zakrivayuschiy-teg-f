@@ -15,19 +15,19 @@
   </head>
 
   <body class="page">
-    <header class="header">
-      <h1 class="header__title">&lt;/HTML&gt;</h1>
-      <p class="header__subtitle">закрывающий тег</p>
+    <header class="header page__container">
+      <p class="header__title">&lt;/HTML&gt;</p>
+      <h1 class="header__subtitle">закрывающий тег</h1>
     </header>
 
-    <main class="card__container">
+    <main class="card__container page__container">
       <ul class="cards__list">
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">
               Фритрек и нулевой спринт: Подготовка к работе
             </h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image"
                 src="./images/image-bus.jpg"
@@ -35,7 +35,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/HTML&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -109,7 +109,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">1 спринт: Я — чистый лист</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-saturate-hue-rotate"
                 src="./images/image-bus.jpg"
@@ -117,7 +117,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/HTML&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -194,7 +194,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">1 спринт: А если не получится?</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-contrast-sepia"
                 src="./images/image-bus.jpg"
@@ -202,7 +202,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/CSS&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -277,7 +277,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-blur-brightness"
                 src="./images/image-bus.jpg"
@@ -285,7 +285,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/API&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -361,7 +361,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-grayscale-contrast"
                 src="./images/image-bus.jpg"
@@ -369,7 +369,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/GIT&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -446,7 +446,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">3 спринт: Обходные стратегии</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-invert-saturate"
                 src="./images/image-bus.jpg"
@@ -456,7 +456,7 @@
               <span aria-hidden="true" class="card__label"
                 >&lt;/GRID LAYOUT&gt;</span
               >
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -530,7 +530,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-hue-rotate-brightness"
                 src="./images/image-bus.jpg"
@@ -540,7 +540,7 @@
               <span aria-hidden="true" class="card__label"
                 >&lt;/MOBILE FIRST&gt;</span
               >
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -616,7 +616,7 @@
         <li class="cards__list__item">
           <article class="card">
             <h2 class="card__title">«Сейчас я здесь»</h2>
-            <figure class="card__image__wrap">
+            <div class="card__image__wrap">
               <img
                 class="card__image filter-sepia-brightness"
                 src="./images/image-bus.jpg"
@@ -624,7 +624,7 @@
                 alt="машина"
               />
               <span aria-hidden="true" class="card__label">&lt;/SVG&gt;</span>
-            </figure>
+            </div>
             <div class="card__content">
               <div class="card__content__text">
                 <p class="paragraph__text">
@@ -733,13 +733,14 @@
           </div>
           <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
         </div>
-        <button
-          class="button__dialog button"
-          type="submit"
-          onclick="window['save-dialog'].close()"
-        >
-          <span class="button__text">ок</span>
+        <form  method="dialog">
+          <button
+            class="button__dialog button"
+            type="submit"
+          >
+            <span class="button__text">ок</span>
         </button>
+        </form>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
