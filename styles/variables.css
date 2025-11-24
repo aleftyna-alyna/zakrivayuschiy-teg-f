@@ -8,7 +8,8 @@
     --gradient-color: #d3d3d3;
     --gradient-color-medium: #e7e7e7;
     --gradient-color-shadow: #1a1a1a;
-    --content-width: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem); /*ширина относительно окна*/
+    --content-width: clamp(23.188rem, -0.538rem + 101.231vi, 43.75rem); /*ширина относительно окна*/
+    --img-content-width: clamp(23.188rem, 0.282rem + 98.784vi, 43.5rem);
     --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem); /* под текст*/
     --header-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem); /* заголовок большой текст */
     --page-text-font-size: 1.125rem; /* 18px основной контент текст*/
